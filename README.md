@@ -7,10 +7,10 @@ Welcome to my University Projects repository! This repository contains a collect
 - [About](#about)
 - [Projects](#projects)
   - [Project 1: Capstone Project and Cloud Computing](#project-1-capstone-project-and-cloud-computing)
-  - [Project 2: Computer Architecture](#project-2-operating-systems)
-  - [Project 3: Data Structure](#project-3-database-systems)
-  - [Project 4: Object-Oriented Programming](#project-4-web-development)
-  - [Project 5: Machine Learning](#project-5-machine-learning)
+  - [Project 2: Computer Architecture](#project-2-computer-architecture)
+  - [Project 3: Data Structure](#project-3-data-structure)
+  - [Project 4: Machine Learning](#project-4-machine-learning)
+  - [Project 5: Object-Oriented Programming](#project-5-object-oriented-programming)
 
 
 ## About
@@ -35,7 +35,7 @@ This repository serves as a portfolio of my academic work and personal projects 
   - Implementation of a basic shell
   - Simulation of process scheduling algorithms
 
-### Project 3: Database Systems
+### Project 3: Data Structure
 
 - **Description**: Design and implementation of databases, including SQL queries, normalization, and transaction management.
 - **Languages Used**: SQL, Python
@@ -43,7 +43,7 @@ This repository serves as a portfolio of my academic work and personal projects 
   - Design of a relational database schema
   - Implementation of CRUD operations
 
-### Project 4: Web Development
+### Project 4: Machine Learning
 
 - **Description**: Development of web applications using front-end and back-end technologies.
 - **Languages Used**: HTML, CSS, JavaScript, Python (Django), Node.js
@@ -51,7 +51,7 @@ This repository serves as a portfolio of my academic work and personal projects 
   - Responsive web design
   - Implementation of RESTful APIs
 
-### Project 5: Machine Learning
+### Project 5: Object-Oriented Programming
 
 - **Description**: Projects involving machine learning algorithms and data analysis.
 - **Languages Used**: Python
