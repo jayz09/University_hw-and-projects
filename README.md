@@ -11,10 +11,7 @@ Welcome to my University Projects repository! This repository contains a collect
   - [Project 3: Database Systems](#project-3-database-systems)
   - [Project 4: Web Development](#project-4-web-development)
   - [Project 5: Machine Learning](#project-5-machine-learning)
-- [How to Use](#how-to-use)
-- [Installation](#installation)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## About
 
@@ -61,14 +58,3 @@ This repository serves as a portfolio of my academic work and personal projects 
 - **Key Features**:
   - Implementation of classification and regression models
   - Data visualization and analysis
-
-## How to Use
-
-Each project directory contains its own README file with detailed instructions on how to set up and run the project. Follow the instructions provided in each README file to get started.
-
-## Installation
-
-To clone this repository and set it up on your local machine, use the following command:
-
-```bash
-git clone https://github.com/yourusername/university-projects.git
