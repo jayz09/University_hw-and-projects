@@ -21,40 +21,40 @@ This repository serves as a portfolio of my academic work and personal projects 
 
 ### Project 1: Capstone Project and Cloud Computing
 
+- **Description**: This project involves designing and deploying a scalable cloud-based application. It focuses on integrating various cloud services to enhance application functionality and performance.
+- **Languages Used**: Python, HTML, CSS, GCP
+- **Key Features**:
+  - Building a responsive website from scratch
+  - Integration with cloud services for storage, compute, and networking
+
+### Project 2: Computer Architecture
+
+- **Description**: This project encompasses core concepts in computer architecture and operating systems, including the design and implementation of fundamental system components.
+- **Languages Used**: C, Assembly
+- **Key Features**:
+  - Simulation of MIPS with process scheduling and memory management algorithms
+  - Exploration of file system operations and virtual memory
+
+### Project 3: Data Structure
+
 - **Description**: Implementations and analyses of various data structures (e.g., linked lists, stacks, queues, trees) and algorithms (e.g., sorting, searching).
-- **Languages Used**: C, C++
+- **Languages Used**: C
 - **Key Features**:
   - Implementation of fundamental data structures
   - Performance analysis of sorting algorithms
 
-### Project 2: Computer Architecture
-
-- **Description**: Projects related to operating system concepts, including process management, memory management, and file systems.
-- **Languages Used**: C
-- **Key Features**:
-  - Implementation of a basic shell
-  - Simulation of process scheduling algorithms
-
-### Project 3: Data Structure
-
-- **Description**: Design and implementation of databases, including SQL queries, normalization, and transaction management.
-- **Languages Used**: SQL, Python
-- **Key Features**:
-  - Design of a relational database schema
-  - Implementation of CRUD operations
-
 ### Project 4: Machine Learning
 
-- **Description**: Development of web applications using front-end and back-end technologies.
-- **Languages Used**: HTML, CSS, JavaScript, Python (Django), Node.js
-- **Key Features**:
-  - Responsive web design
-  - Implementation of RESTful APIs
-
-### Project 5: Object-Oriented Programming
-
 - **Description**: Projects involving machine learning algorithms and data analysis.
-- **Languages Used**: Python
+- **Languages Used**: Pyhton
 - **Key Features**:
   - Implementation of classification and regression models
   - Data visualization and analysis
+
+### Project 5: Object-Oriented Programming
+
+- **Description**: This project focuses on applying object-oriented programming principles to design and implement software solutions, emphasizing the use of classes, inheritance, and polymorphism.
+- **Languages Used**: C++
+- **Key Features**:
+  - Implementation of class hierarchies, encapsulation, and abstraction
+  - Application of design patterns for improved code maintainability
