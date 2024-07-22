@@ -6,7 +6,7 @@ Welcome to my University Projects repository! This repository contains a collect
 
 - [About](#about)
 - [Projects](#projects)
-  - [Project 1: Capstone Project and Cloud Computing]
+  - [Project 1: Capstone Project and Cloud Computing](#project-1-capstone-project-and-cloud-computing)
   - [Project 2: Computer Architecture](#project-2-operating-systems)
   - [Project 3: Data Structure](#project-3-database-systems)
   - [Project 4: Object-Oriented Programming](#project-4-web-development)
@@ -19,7 +19,7 @@ This repository serves as a portfolio of my academic work and personal projects 
 
 ## Projects
 
-### Project 1: Data Structures and Algorithms
+### Project 1: Capstone Project and Cloud Computing
 
 - **Description**: Implementations and analyses of various data structures (e.g., linked lists, stacks, queues, trees) and algorithms (e.g., sorting, searching).
 - **Languages Used**: C, C++
@@ -27,7 +27,7 @@ This repository serves as a portfolio of my academic work and personal projects 
   - Implementation of fundamental data structures
   - Performance analysis of sorting algorithms
 
-### Project 2: Operating Systems
+### Project 2: Computer Architecture
 
 - **Description**: Projects related to operating system concepts, including process management, memory management, and file systems.
 - **Languages Used**: C
