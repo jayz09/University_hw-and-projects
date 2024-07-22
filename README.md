@@ -6,7 +6,7 @@ Welcome to my University Projects repository! This repository contains a collect
 
 - [About](#about)
 - [Projects](#projects)
-  - [Project 1: Data Structures and Algorithms](#project-1-data-structures-and-algorithms)
+  - [Project 1: Capstone Project and Cloud Computing](#project-1-data-structures-and-algorithms)
   - [Project 2: Operating Systems](#project-2-operating-systems)
   - [Project 3: Database Systems](#project-3-database-systems)
   - [Project 4: Web Development](#project-4-web-development)
