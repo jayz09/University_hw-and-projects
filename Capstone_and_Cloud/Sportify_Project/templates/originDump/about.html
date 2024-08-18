@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!-- "{{ url_for('static', filename = 'about.css')}}" -->
+    <link rel="stylesheet" href="../../static/about.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav class="navbar_header">
+
+            <!-- "{{ url_for('static', filename = 'img/sportifyText.png')}}" -->
+            <img src="../../static/img/sportifyText.png" alt="Logo Sportify" class="sportify_logo">
+
+            <ul class="navbar_links">
+                <li><a href="dashboard">Home</a></li>
+                <li><a href="match">Match</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+
+            <div class="navigation">
+
+                <a class="button" href="login">
+                    <!-- "{{ url_for('static', filename = 'img/user.png')}}" -->
+                    <img src="../../static/img/user.png">
+
+                    <div class="logout">LOGOUT</div>
+
+                </a>
+
+            </div>
+
+
+        </nav>
+
+        <div class="header_line"></div>
+
+        <div class="header_text">
+            <!-- "{{ url_for('static', filename = 'img/sportify_about.jpg')}}" -->
+            <img src="../../static/img/sportify_about.jpg" alt="Cristiano Curry">
+            <div class="top_content">
+                <h1>About Us</h1>
+                <p>Here in Sportify, we are committed to create a healthy environment by connecting individuals to
+                    express their abilities while also enjoying sports that they desire, as convenient as possible.</p>
+            </div>
+        </div>
+
+        <div class="alex_text">
+            <h2>Meet The Team</h2>
+            <!-- "{{ url_for('static', filename = 'img/alex.jpg')}}" -->
+            <img src="../../static/img/alex.jpg" alt="alex">
+            <div class="alex_content">
+                <h3>Simon</h3>
+                <i>The Database Guy</i>
+            </div>
+        </div>
+
+        <div class="robby_text">
+            <!-- "{{ url_for('static', filename = 'img/robby.jpg')}}" -->
+            <img src="../../static/img/robby.jpg" alt="robby">
+            <div class="robby_content">
+                <h3>Robby</h3>
+                <i>Backend Enjoyer</i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <!-- "{{ url_for('static', filename = 'img/michael.jpg')}}" -->
+                <img src="../../static/img/michael.jpg" width="100%">
+                <h3>Michael</h3>
+                <i>Frontend Enjoyer #1</i>
+            </div>
+            <div class="column">
+                <!-- "{{ url_for('static', filename = 'img/jason.JPG')}}" -->
+                <img src="../../static/img/jason.JPG" , width="100%">
+                <h3>Jason</h3>
+                <i>Frontend Enjoyer #2</i>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

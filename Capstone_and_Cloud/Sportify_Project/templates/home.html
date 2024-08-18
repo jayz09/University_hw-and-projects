@@ -2,39 +2,40 @@
 <html lang="en">
 
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        <title>Home Page</title>
-        <link rel = "stylesheet" href = "{{ url_for('static', filename = 'home.css')}}">
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <!-- "{{ url_for('static', filename = 'home.css')}}" -->
+    <link rel="stylesheet" href="../static/home.css">
 
-    </head>
+</head>
 
 
-    <body>
-    
-        <img src = "{{ url_for('static', filename = 'img/sportify2.png')}}">
+<body>
+    <!-- "{{ url_for('static', filename = 'img/sportify2.png')}}" -->
+    <img src="../static/img/sportify2.png">
 
-        <div class = "box">
-        
-            <form>
-                
-                <h2>
-                    Setting up a sport session made easy, <br>just for you!
-                </h2>
-                
-                <div class = "button">
+    <div class="box">
 
-                    <input type = "submit" formaction = "/signup" value = "Sign Up Now!">
-                    <input type = "submit" formaction = "/login" value = "Login Here!">
-                    
+        <form>
 
-                </div>
-            
-            </form>
+            <h2>
+                Setting up a sport session made easy, <br>just for you!
+            </h2>
 
-        </div>
+            <div class="button">
 
-    </body>
+                <input type="submit" formaction="/signup" value="Sign Up Now!">
+                <input type="submit" formaction="/login" value="Login Here!">
+
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
 
 </html>

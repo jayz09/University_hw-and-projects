@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
 
 <head>
 
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename = 'signup.css')}}">
-    
+    <!-- "{{ url_for('static', filename = 'signup.css')}}" -->
+    <link rel="stylesheet" type="text/css" href="../static/signup.css">
+
     <script>
         // Check if flash messages exist and display them as pop-up dialogs
-        {% with messages = get_flashed_messages(with_categories=true) %}
-            {% if messages %}
-                {% for category, message in messages %}
-                    alert("{{ message }}");
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
+        // {% with messages = get_flashed_messages(with_categories = true) %}
+        // {% if messages %}
+        // {% for category, message in messages %}
+        // alert("{{ message }}");
+        // {% endfor %}
+        // {% endif %}
+        // {% endwith %}
     </script>
 
 </head>
@@ -25,102 +26,75 @@
 <body>
 
 
-    <div class = "box">
+    <div class="box">
 
 
-        <form method = "POST" action = "/register">
+        <form method="POST" action="/register">
 
 
             <h2>Sign Up</h2>
 
 
-            <div class = "inputBox">
-                
-                <input
-                    type = "text"
-                    required = "required"
-                    name = "firstName"
-                    id = "firstName"
-                />
+            <div class="inputBox">
+
+                <input type="text" required="required" name="firstName" id="firstName" />
                 <span>First Name</span>
                 <i></i>
-            
+
             </div>
-            
-            
-            <div class = "inputBox">
-                
-                <input
-                    type = "text"
-                    required = "required"
-                    name = "lastName"
-                    id = "lastName"
-                />
+
+
+            <div class="inputBox">
+
+                <input type="text" required="required" name="lastName" id="lastName" />
                 <span>Last Name</span>
                 <i></i>
 
             </div>
 
 
-            <div class = "Selection" style = "width: 300px;">
+            <div class="Selection" style="width: 300px;">
 
-                <select
-                    name = "gender"
-                    id = "gender"
-                >
+                <select name="gender" id="gender">
 
-                    <option value = "undisclosed">Select Gender</option>
-                    <option value = "male">Male</option>
-                    <option value = "female">Female</option>
-                
+                    <option value="undisclosed">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+
                 </select>
                 <i></i>
-            
+
             </div>
 
 
-            <div class = "inputBox">
-                
-                <input
-                    type = "text" 
-                    required = "required"
-                    name = "user_id"
-                    id = "user_id"
-                />
+            <div class="inputBox">
+
+                <input type="text" required="required" name="user_id" id="user_id" />
                 <span>Username</span>
                 <i></i>
 
             </div>
 
 
-            <div class = "inputBox">
-                
-                <input
-                    type = "password"
-                    required = "required"
-                    name = "password"
-                    id = "password"
-                />
+            <div class="inputBox">
+
+                <input type="password" required="required" name="password" id="password" />
                 <span>Password</span>
                 <i></i>
-            
+
             </div>
 
 
-            <div class = "inputBox">
+            <div class="inputBox">
 
-                <input 
-                    type = "password" 
-                    required = "required" 
-                    id = "confirmPassword"
-                />
+                <input type="password" required="required" id="confirmPassword" />
                 <span>Confirm Password</span>
                 <i></i>
 
             </div>
 
 
-            <div class = "link">
+            <div class="link">
 
                 <a>Already have an account?</a>
                 <a href="login">Login!</a>
@@ -128,7 +102,7 @@
             </div>
 
 
-            <input type = "submit" value = "Sign Up">
+            <input type="submit" value="Sign Up">
 
 
         </form>
@@ -136,6 +110,7 @@
 
     </div>
 
-    <script src="{{ url_for('static', filename = 'signup.js')}}"></script>
+    <!-- "{{ url_for('static', filename = 'signup.js')}}" -->
+    <script src="../static/signup.js"></script>
 
 </body>
